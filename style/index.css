@@ -33,3 +33,7 @@ body{
     height: 300px;
     border: 1px solid black;
 }
+
+.titulo{
+    font-size: 0.8em;
+}
