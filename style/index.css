@@ -30,10 +30,10 @@ body{
 
 .card{
     background-color: var(--Dark-Grayish-Blue);
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
-    width: 300px;
-    height: 300px;
+    width: 11em;
+    height: 11em;
     border: 0px solid black;
     border-radius: 10px;
 }
@@ -48,21 +48,24 @@ body{
 }
 
 .card_button{
-    position: relative;
-    bottom: -5px;
-    width: 50px;
-    height: 50px;
+    margin-top: 1em;
+    width: 2.1em;
+    height: 2.1em;
     border-radius: 50%;
     border: 0px solid var(--Dark-Blue);
     background-color: var(--Neon-Green);
+    cursor: pointer;
 }
+.card_button:hover{
+    filter: brightness(2);
+}
+
 .Advice{
     color: var(--Light-Cyan);
     font-size: 0.8em;
-    height: 150px;
+    height: 6em;
 }
 .card_img{
     width: 100%;
-    position: relative;
-    bottom: 5px;
+   
 }
